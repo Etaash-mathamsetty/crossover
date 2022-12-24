@@ -14,23 +14,23 @@
         "url": "https://lacymorrow.com"
     },
     "funding": [
-      {
-        "type" : "patreon",
-        "url" : "https://patreon.com/lacymorrow"
-      },
-      {
-        "type" : "individual",
-        "url" : "http://lacymorrow.com/donate"
-      },
-      "https://opencollective.com/crossover",
-      "https://www.buymeacoffee.com/lm"
+        {
+            "type": "patreon",
+            "url": "https://patreon.com/lacymorrow"
+        },
+        {
+            "type": "individual",
+            "url": "http://lacymorrow.com/donate"
+        },
+        "https://opencollective.com/crossover",
+        "https://www.buymeacoffee.com/lm"
     ],
     "bugs": {
         "url": "https://github.com/lacymorrow/crossover/issues"
     },
     "license": "CC-BY-NC-SA-4.0",
     "engines": {
-        "node": "14.17.4 || 14 || 16"
+        "node": "19.3.0"
     },
     "scripts": {
         "install": "yarn css",
@@ -80,17 +80,18 @@
         "electron-util": "^0.17.0",
         "electron-winstore-auto-launch": "^2.0.6",
         "got": "^12.1.0",
-        "iohook": "^0.9.3"
+        "iohook": "^0.9.3",
+        "yarn-upgrade-all": "^0.7.1"
     },
     "devDependencies": {
-        "@babel/core": "^7.17.8",
-        "@babel/eslint-parser": "^7.17.0",
+        "@babel/core": "^7.20.7",
+        "@babel/eslint-parser": "^7.19.1",
         "@playwright/test": "^1.21.0",
         "axe-playwright": "^1.1.11",
         "bindings": "^1.5.0",
         "depcheck": "^1.4.3",
-        "electron": "11.5.0",
-        "electron-builder": "^23.0.3",
+        "electron": "22.0.0",
+        "electron-builder": "^23.6.0",
         "electron-builder-squirrel-windows": "^23.0.6",
         "eslint": "^8.12.0",
         "eslint-config-xo": "^0.40.0",
@@ -100,7 +101,7 @@
         "nodemon": "^2.0.15",
         "np": "^7.2.0",
         "playwright": "^1.21.0",
-        "sass": "^1.26.5"
+        "sass": "^1.55.0"
     },
     "iohook": {
         "targets": [
